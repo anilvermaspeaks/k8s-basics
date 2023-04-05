@@ -17,3 +17,13 @@ kubectl apply -f service/pod-name
 ### get all pods/service
 
 kubectl get all
+
+### shortcuts for
+
+pod- po
+service - svc
+replicaset - rs
+
+### delete service/pod
+
+kubectl delete po/svc name-of-pod-svc
